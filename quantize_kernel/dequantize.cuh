@@ -1,13 +1,6 @@
 
 /*
-Modified from NVIDIA FasterTransformer: https://github.com/NVIDIA/FasterTransformer/blob/main/src/fastertransformer/cutlass_extensions/include/cutlass_extensions/interleaved_numeric_conversion.h
-
-@article{lin2023awq,
-  title={AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration},
-  author={Lin, Ji and Tang, Jiaming and Tang, Haotian and Yang, Shang and Dang, Xingyu and Han, Song},
-  journal={arXiv},
-  year={2023}
-}
+Modified from AWQ
 */
 #include <cuda_fp16.h>
 #include <cuda_bf16.h>
