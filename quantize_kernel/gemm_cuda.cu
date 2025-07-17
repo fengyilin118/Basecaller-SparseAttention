@@ -1,3 +1,4 @@
+/* Modified from AWQ*/
 #include <cuda_fp16.h>
 #include "semaphore.h"
 #include "gemm_cuda.h"
